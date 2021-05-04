@@ -19,6 +19,7 @@ namespace ClasstestApp
                 Age = 12,
                 Color = "검은 "
             };*/
+
             Cat nero = new Cat("네로", "검은", 12);
             nero.Meow();
             /* 위에거랑같음

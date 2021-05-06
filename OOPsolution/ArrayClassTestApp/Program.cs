@@ -31,7 +31,14 @@ namespace ArrayClassTestApp
             Console.WriteLine();
             int index7 = Array.IndexOf(array, 7);
             Console.WriteLine($"7의 위치는 {index7}"); //index 위치 찾기
-          
+
+            Array.Resize<int>(ref array, 11); //배열 사이즈 늘리기
+            array[10] = 100;
+            foreach (var item in array)
+            {
+                Console.Write($"{item}\t");
+            }
+            Console.WriteLine();
         }
     }
 }

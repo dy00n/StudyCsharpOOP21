@@ -14,7 +14,9 @@ namespace IndexerTestApp
             {
                 list[i] = (i + 1); // 1 ~ 5
             }
-            for(int i=0; i<list.Length; i++)
+            Console.WriteLine("For 실행");
+
+            for (int i = 0; i < list.Length; i++)
             {
                 Console.WriteLine(list[i]);
             }

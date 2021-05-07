@@ -15,13 +15,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyTestApp", "Property
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayTestApp", "ArrayTestApp\ArrayTestApp.csproj", "{04D941E4-D6EE-48C3-A0AD-903E4A9C3CCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayClassTestApp", "ArrayClassTestApp\ArrayClassTestApp.csproj", "{910BF28D-54EC-4A77-91F9-BB5BD6ACCF48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayClassTestApp", "ArrayClassTestApp\ArrayClassTestApp.csproj", "{910BF28D-54EC-4A77-91F9-BB5BD6ACCF48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTestApp", "CollectionTestApp\CollectionTestApp.csproj", "{56DAE4EA-78E8-489B-A20C-EACCBF075F95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionTestApp", "CollectionTestApp\CollectionTestApp.csproj", "{56DAE4EA-78E8-489B-A20C-EACCBF075F95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTestApp", "QueueTestApp\QueueTestApp.csproj", "{CB90C217-21A1-40BD-A44A-C74C372E7DD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTestApp", "QueueTestApp\QueueTestApp.csproj", "{CB90C217-21A1-40BD-A44A-C74C372E7DD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerTestApp", "IndexerTestApp\IndexerTestApp.csproj", "{FB8660CA-99EC-44AC-8F67-091077CA776A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexerTestApp", "IndexerTestApp\IndexerTestApp.csproj", "{FB8660CA-99EC-44AC-8F67-091077CA776A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTestApp", "GenericTestApp\GenericTestApp.csproj", "{88F6A55A-284B-46FF-8498-DC3DD5F44ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTestApp2", "GenericTestApp2\GenericTestApp2.csproj", "{F19D6ACA-805A-42EB-B386-3874E2D453DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMyListApp", "GenericMyListApp\GenericMyListApp.csproj", "{0CB4D7DB-30AE-46C2-8E88-CCE93E5565CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{E64959A1-C603-4B44-8A77-D86F82E42ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionTestApp", "ExceptionTestApp\ExceptionTestApp.csproj", "{FF3B32BF-AFC5-4802-8F12-C1A4EE197461}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +79,26 @@ Global
 		{FB8660CA-99EC-44AC-8F67-091077CA776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB8660CA-99EC-44AC-8F67-091077CA776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB8660CA-99EC-44AC-8F67-091077CA776A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F6A55A-284B-46FF-8498-DC3DD5F44ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F6A55A-284B-46FF-8498-DC3DD5F44ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F6A55A-284B-46FF-8498-DC3DD5F44ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F6A55A-284B-46FF-8498-DC3DD5F44ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19D6ACA-805A-42EB-B386-3874E2D453DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19D6ACA-805A-42EB-B386-3874E2D453DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19D6ACA-805A-42EB-B386-3874E2D453DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19D6ACA-805A-42EB-B386-3874E2D453DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB4D7DB-30AE-46C2-8E88-CCE93E5565CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB4D7DB-30AE-46C2-8E88-CCE93E5565CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB4D7DB-30AE-46C2-8E88-CCE93E5565CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB4D7DB-30AE-46C2-8E88-CCE93E5565CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64959A1-C603-4B44-8A77-D86F82E42ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64959A1-C603-4B44-8A77-D86F82E42ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64959A1-C603-4B44-8A77-D86F82E42ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64959A1-C603-4B44-8A77-D86F82E42ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF3B32BF-AFC5-4802-8F12-C1A4EE197461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3B32BF-AFC5-4802-8F12-C1A4EE197461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3B32BF-AFC5-4802-8F12-C1A4EE197461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3B32BF-AFC5-4802-8F12-C1A4EE197461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

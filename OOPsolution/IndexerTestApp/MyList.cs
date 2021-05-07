@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,9 @@ namespace IndexerTestApp
     class MyList
     {
         private int[] array;
+        private int position = -1; // 배열의 현재 위치값
 
+        // 배열화 (배열이 아닌 MyList를 배열처럼 만들어주는 프로퍼티)
         public int Length { get; internal set; }
 
         public int this[int index] // == MyList[i] == array[i]
@@ -33,11 +36,14 @@ namespace IndexerTestApp
         {
             get { return array.Length; }
         }
+        //IEnumarable 사용
+
 
         public MyList()
         {
             array = new int[3]; // 0, 1, 2
         }
+      
         
     }
 }

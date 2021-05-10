@@ -93,6 +93,7 @@ namespace EventHandlerCheckApp
             this.Name = "Mainform";
             this.Tag = "";
             this.Text = "앱";
+            this.Load += new System.EventHandler(this.Mainform_Load);
             this.Resize += new System.EventHandler(this.Mainform_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();

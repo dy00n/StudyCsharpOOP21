@@ -29,6 +29,7 @@ namespace ParallelTestApp
             TimeSpan pProcTime = DateTime.Now - pStartTime;
             Console.WriteLine($"Parallel.For 10000 처리시간 : {pProcTime.TotalMilliseconds}ms");
             Console.ReadLine();
+            
 
         }
     }
